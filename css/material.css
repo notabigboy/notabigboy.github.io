@@ -26,11 +26,12 @@ header img {
 }
 
 header h1 {
-  display: block;
-  color: rgba(0, 0, 0, 0.77);
-  font-size: 24px;
-  line-height: 32px;
-  margin-top: 15px;
+  display: inline-block;
+  clear: both;
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 30px;
+  /*line-height: 30px;*/
+  margin-top: 25px;
 }
 
 img {
@@ -109,6 +110,13 @@ figure:hover figcaption {
 
 .navbar-brand {
   font-size: 2em;
+}
+
+.navbar-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  margin-top: 6px;
 }
 
 #portofolio-wrapper {
