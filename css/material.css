@@ -96,6 +96,8 @@ figure:hover figcaption {
 
 .navbar-nav {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .navbar-nav > li {
@@ -122,6 +124,27 @@ figure:hover figcaption {
 #portofolio-wrapper {
   padding: 0 15px;
   background-color: rgba(255,255,255,0.8);
+}
+
+#iFrameResizer0 {
+  right: 0px;
+  bottom: 35px;
+  width: 50px;
+  height: 50px;
+}
+
+#small-chat {
+  bottom: 5px;
+  right: 8px;
+}
+
+#small-chat .open-small-chat {
+  background: #009788;
+  padding: 8px 8px;
+}
+
+#small-chat .fa {
+    font-size: 1.6em;
 }
 
 /*@media only screen and (max-width: 599px) {
