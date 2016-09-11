@@ -95,7 +95,6 @@ figure:hover figcaption {
 }
 
 .navbar-nav {
-  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -103,6 +102,10 @@ figure:hover figcaption {
 .navbar-nav > li {
   float:none;
   display:inline-block;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  background-color: rgba(255,255,255,.1);
 }
 
 .navbar {
@@ -126,38 +129,6 @@ figure:hover figcaption {
   background-color: rgba(255,255,255,0.8);
 }
 
-#iFrameResizer0 {
-  right: 0px !important;
-  bottom: 35px !important;
-  width: 50px !important;
-  height: 50px !important;
-}
-
-#small-chat {
-  bottom: 5px !important;
-  right: 8px !important;
-}
-
-#small-chat .open-small-chat {
-  background: #009788 !important;
-  padding: 8px 8px !important;
-}
-
-#small-chat .fa {
-    font-size: 1.6em !important;
-}
-
-/*@media only screen and (max-width: 599px) {
-  body {
-    padding-top: 40%;
-    background-image: url(../images/bg.jpg);
-    background-size: 100%;
-    background-position: top -25% right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
-*/
 @media (min-width: 600px)
 {
   html,
