@@ -111,6 +111,7 @@ figure:hover figcaption {
 .navbar {
   font-family: 'Satisfy', cursive;
   font-size: 1.25em;
+  padding-left: 15px;
 }
 
 .navbar-brand {
@@ -144,6 +145,10 @@ figure:hover figcaption {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+  }
+  
+  .navbar {
+    padding-left: 0;
   }
   
   .navbar .navbar-brand {
